@@ -1,4 +1,4 @@
 # eduonline_2015
-* migrated from SVN
+* Migrated from SVN
 * Based on PHPMyWind
 * Owner is Sun Jicheng
