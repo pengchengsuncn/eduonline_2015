@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*===  标题+横线 + 推荐资讯列表  ===*/
+.glb{
+	width:100%;
+}
+.glb > h1{
+	width:100%;
+	height:48px;
+	font-size:2.0em;
+	font-weight:normal;
+	display:inline-block;
+	color:#f10000;
+	border-bottom:2px solid #f10000
+}
+.glb > h1.grey{
+	color:#454545;
+	border-bottom-color:#d2d2d2
+}
+.glb .glb-news, .glb .glb-pho, .glb .glb-tails{
+	width:100%;
+	margin:12px 0 10px 0;
+	font-size:1.4em;
+}
+.glb-news ul li{
+	font-size:1.1em;
+	padding:4px 0;
+	display:inline-block;
+}
+.glb-news ul li a small{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	font-size:.8em;
+	margin-top:6px;
+	text-align:center;
+	display:inline-block;
+	float:left;
+	background-color:#f10000;
+	color:#fff;
+}
+.glb-news ul li a span{
+	width:300px;
+	margin-left:12px;
+	display:inline-block;
+	float:left;
+	white-space:nowrap;
+	overflow:hidden;
+	text-emphasis:dot
+}
+/*===  圆形的图片 + 标题 + 说明  ===*/
+.glb-pho ul li{
+	width:100%;
+	padding:12px 0;
+	margin:0 0 16px 0;
+	display:inline-block;
+	background-color:#fff;
+	float:left
+}
+.glb-pho dl dt{
+	width:100%;
+	height:120px;
+	line-height:120px;
+	display:inline-block;
+	text-align:center;
+}
+.glb-pho dl dt a{
+	display:block;
+	width:120px;
+	height:120px;
+	margin:6px 120px 12px;
+	border-radius:60px;
+	background-color:#ececec;
+	overflow:hidden
+}
+.glb-pho dl dd{
+	width:100%;
+}
+.glb-pho dl .glb-pho-title p:first-child{
+	width:100%;
+	text-align:center;
+	font-size:1.2em;
+}
+.glb-pho dl .glb-pho-title p:last-child{
+	text-align:center;
+}
+.glb-pho dl .glb-pho-desc{
+	width:100%;
+	height:48px;
+	line-height:24px;
+	display:inline-block;
+	overflow:hidden;
+	color:#454545
+}
+.glb-pho dl .glb-pho-more{
+	height:auto;
+	font-size:1.2em;
+}
+.glb-pho dl .glb-pho-desc p{
+	padding:0 12px;
+}
+/*===  讨论  ===*/
+.glb-tails ul li{
+	width:100%;
+	padding:3px 0;
+	display:inline-block;
+	border-bottom:1px dashed #d2d2d2
+}
+.glb-tails ul li a{
+	width:250px;
+	display:inline-block;
+	float:left;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.glb-tails ul li span{
+	width:95px;
+	text-align:right;
+	display:inline-block;
+	float:right;
+	margin:0 0 0 12px;
+	color:#727272;
+}
+/*===  分页模块  ===*/
+.pagenation{
+	width:100%;
+	font-size:1.2em;
+	margin:24px 0;
+}
+.pagenation ul li{
+	padding:1px 10px;
+	margin:0 6px 0 0;
+	display:block;
+	float:left;
+	background-color:#fff;
+	border:1px solid #f0f0f0;
+	color:#454545;
+	cursor:pointer
+}
+.pagenation ul li:hover,.pagenation ul li.ovr{
+	background-color:#f10000;
+	color:#fff;
+}
+.pagenation a{
+	height:32px;
+	line-height:32px;
+	font-size:1.0em;
+	padding:0 16px;
+	border-radius:16px;
+	border:1px solid #e2e2e2;
+	background-color:#fff;
+	color:#454545
+}
+.pagenation a:hover{
+	background-color:#ececec;
+	border-color:#dfdfdf;
+	color:#f10000
+}
+
+
+
+
+
+
+
+
+
+
+

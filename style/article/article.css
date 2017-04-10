@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url("../base.css");
+
+/*===  新闻资讯列表页  ===*/
+.news{width:100%;font-size-adjust:1.0em;}
+.news>h1{
+	width:100%;
+	height:48px;
+	font-size:2.2em;
+	font-weight:normal;
+	display:inline-block;
+	color:#454545;
+	border-bottom:2px solid #cecece
+}
+.news .tab-slide{
+	width:100%;
+	font-size:1.4em;
+	margin:16px 0 0 0;
+	display:inline-block;
+}
+.news .tab-slide a{
+	padding:2px 12px;
+	margin:0 12px 0 0 ;
+	display:inline-block;
+	float:left;
+}
+.news .tab-slide a.selected{
+	border-radius:2px;
+	background-color:#f10000;
+	color:#fff;
+}
+.news .news-list{
+	width:100%;
+	font-size:1.4em;
+	margin:16px 0 0 0;
+}
+.news-list ul li{
+	width:100%;
+	padding:12px 0;
+	display:inline-block;
+	float:left;
+	background-color:#fff;
+	border-bottom:1px solid #cecece
+}
+.news-list article > p{
+	width:100%;
+	height:24px;
+	line-height:24px;
+	display:inline-block;
+}
+.news-list article > p a{
+	float:left;
+	margin:0 0 0 12px;
+}
+.news-list article > p span{
+	margin:0 12px 0 0;
+	float:right;
+	color:#727272
+}
+.news-list article .article{
+	width:500px;
+	margin:0 0 0 10px;
+	display:block;
+	float:left
+}
+.news-list article .article dl dt{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	font-size:1.4em;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden
+}
+.news-list article .article dl dd{
+	width:100%;
+	height:88px;
+	line-height:22px;
+	display:inline-block;
+	color:#454545;
+	overflow:hidden;
+}
+.news-list article .news-list-thumb{
+	width:216px;
+	height:120px;
+	margin:0 0 0 14px;
+	float:left;
+	overflow:hidden;
+}
+/*===  新闻列表详情页  ===*/
+.news .tag{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	font-size:1.4em;
+	margin:16px 0 0 0;
+	display:inline-block;
+	background-color:#efefef
+}
+.news .tag a{
+	padding:0 12px;
+}
+.news .tag span{
+	padding:0 0 0 12px;
+	color:#727272
+}
+.news .news-article{
+	width:726px;
+	font-size:1.4em;
+	margin:24px 0 0 0;
+	padding:12px;
+	background-color:#fff;
+}
+.news-article > h1{
+	font-size:1.4em;
+	font-weight:normal;
+	line-height:1.5;
+	color:#454545;
+	display:inline-block;
+}
+.news-article .news-article-time{
+	width:100%;
+	height:32px;
+	line-height:32px;
+	display:inline-block;
+	color:#727272
+}
+.news-article > article{
+	font-size:1.0em;
+	line-height:1.6;
+	text-indent:2em;
+	color:#454545
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
